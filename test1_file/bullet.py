@@ -14,5 +14,5 @@ class Bullet(Sprite):
         self.rect.centerx = ship.rect.right
 
         self.x = float(self.rect.x)
-        
+
 
