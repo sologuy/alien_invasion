@@ -10,9 +10,13 @@ class Settings():
         # 飞船速度的设置
         self.ship_speed_factor = 10.5
         # 子弹设置
-        self.bullet_speed_factor = 10
-        self.bullet_width = 3
+        self.bullet_speed_factor = 20
+        self.bullet_width = 60
         self.bullet_height = 5
         self.bullet_color = (60, 60, 60)
-        self.bullet_allowed = 6 #一屏允许的最大子弹数
-        self.alien_speed_factor = 3 #外星人移动速度
+        self.bullet_allowed = 60 #一屏允许的最大子弹数
+        self.alien_speed_factor = 10 #外星人移动速度
+        self.fleet_drop_speed = 50
+        self.fleet_direction = 1#1 表示右移, -1表示左移
+        self.ship_limit = 3#玩家最多拥有的飞船数量
+
